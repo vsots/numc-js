@@ -8,13 +8,10 @@
 
 int main()
 {
-    typedef enum {
-        JS_INT,
-        JS_UINT,
-        JS_FLOAT 
-    } CJSType;
+    // void construct_cjsarray(void *data, char type)
+    // {
+    //     return;
+    // };
 
     return 0;
 }
-
-
