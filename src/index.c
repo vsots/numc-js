@@ -6,10 +6,15 @@
 #include <stdlib.h>
 #include <time.h>
 
-const char test[7] = "tester\0";
-
 int main()
 {
-    printf(test);
+    typedef enum {
+        JS_INT,
+        JS_UINT,
+        JS_FLOAT 
+    } CJSType;
+
     return 0;
 }
+
+
