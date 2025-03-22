@@ -6,7 +6,7 @@ interface CJSArray {
     value: unknown[] | number;
 }
 
-const makeCJSArray = <T extends (unknown[] | number)>(numbers: T): CJSArray => {
+const makeCJSArray = (numbers: unknown[] | number): CJSArray => {
     if (Array.isArray(numbers)) {
         const shape = [numbers.length];
         let elem = numbers[0];
